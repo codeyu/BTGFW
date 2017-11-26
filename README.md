@@ -66,11 +66,11 @@
 <pre>apt-get install wget</pre>
 </div>
 <p>　　拷贝安装一键管理脚本的命令到控制台运行。以下两个命令分别为脚本命令以及备用命令（其实就是地址不一样），运行任意一个即可。然后等待脚本安装完成，期间如果有提示输入Y记得输入一下。注意，命令的参数包括命令后面的网址，要一起拷贝，虽然显示出来可能是两行，但其实是没有换行的。</p>
-<div class="cnblogs_code"><div class="cnblogs_code_toolbar"><span class="cnblogs_code_copy"><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="./自建梯子教程_files/copycode.gif" alt="复制代码"></a></span></div>
-<pre>wget -N --no-check-certificate https://softs.fun/Bash/ssr.sh &amp;&amp; chmod +x ssr.sh &amp;&amp; bash ssr.sh
-
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh &amp;&amp; chmod +x ssr.sh &amp;&amp; bash ssr.sh</pre>
-<div class="cnblogs_code_toolbar"><span class="cnblogs_code_copy"><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="./自建梯子教程_files/copycode.gif" alt="复制代码"></a></span></div></div>
+<!--<div class="cnblogs_code"><div class="cnblogs_code_toolbar"><span class="cnblogs_code_copy"><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="./自建梯子教程_files/copycode.gif" alt="复制代码"></a></span></div>-->
+<pre>wget -N --no-check-certificate https://softs.fun/Bash/ssr.sh &amp;&amp; chmod +x ssr.sh &amp;&amp; bash ssr.sh</pre>
+或
+<pre>wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/doubi/master/ssr.sh &amp;&amp; chmod +x ssr.sh &amp;&amp; bash ssr.sh</pre>
+<!--<div class="cnblogs_code_toolbar"><span class="cnblogs_code_copy"><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="./自建梯子教程_files/copycode.gif" alt="复制代码"></a></span></div></div>-->
 <p>　　上述命令运行后会提示你输入数字来选择要做什么。输入 1 ，就会开始安装ShadowsocksR服务端，并且会提示你输入ShadowsocksR的&nbsp;<strong>端口/密码/加密方式/ 协议/混淆</strong>（混淆和协议是通过输入数字选择的） 等参数。虽然没有必要，但是可以考虑重启一下服务器（命令：reboot）。然后输入运行脚本的命令即可开始配置SSR了。运行管理脚本的命令为：</p>
 <div class="cnblogs_code">
 <pre>bash ssr.sh</pre>
@@ -81,7 +81,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
 <pre>bash ssr.sh</pre>
 </div>
 <p>　　输入命令对应的数字来执行命令。</p>
-<div class="cnblogs_code"><div class="cnblogs_code_toolbar"><span class="cnblogs_code_copy"><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="./自建梯子教程_files/copycode.gif" alt="复制代码"></a></span></div>
+<!--<div class="cnblogs_code"><div class="cnblogs_code_toolbar"><span class="cnblogs_code_copy"><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="./自建梯子教程_files/copycode.gif" alt="复制代码"></a></span></div>-->
 <pre>ShadowsocksR 一键管理脚本脚本 [v2.0.35]
  
  1. 安装 ShadowsocksR
@@ -107,7 +107,7 @@ wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubi/dou
  当前模式: 单端口
  
 请输入数字(1-15)：</pre>
-<div class="cnblogs_code_toolbar"><span class="cnblogs_code_copy"><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="./自建梯子教程_files/copycode.gif" alt="复制代码"></a></span></div></div>
+<!--<div class="cnblogs_code_toolbar"><span class="cnblogs_code_copy"><a href="javascript:void(0);" onclick="copyCnblogsCode(this)" title="复制代码"><img src="./自建梯子教程_files/copycode.gif" alt="复制代码"></a></span></div></div>-->
 <p>　　建议配置为：</p>
 <div class="cnblogs_code">
 <pre>端口：443
