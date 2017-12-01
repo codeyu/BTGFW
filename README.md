@@ -125,7 +125,7 @@
 <li>　　输入密码：强度越大越好，反正不需要记忆；</li>
 <li>　　输入15：使用chacha20加密方式；</li>
 <li>　　输入2：使用authsha1_v4协议插件，输入2并确认后会提示是否兼容原版，原版指的是Shadowsocks，没有必要选择兼容，填n后回车即可。</li>
-<li>　　输入2：使用http_simple混淆，延时小，可靠性高，同样也不需要兼容原版；</li>
+<li>　　输入2：使用http_simple混淆，延时小，可靠性高，同样也不需要兼容原版；（小概率导致<a href="https://github.com/siaimes/BTGFW/issues/3" target="_blank">windows客户端无法连接</a>）</li>
 <li>　　然后就是一些限制，一般默认几次回车就好了。&nbsp;</li>
 </ol>
 <p>　　上面的步骤无误之后一键管理脚本就开始安装SSR了，过一会儿会提示下载文件，输入y后回车即可，然后继续等待。</p>
@@ -139,7 +139,7 @@
 <p>　　ShadowsocksR客户端下载地址<a href="https://github.com/shadowsocksr-backup/shadowsocksr-csharp/releases" target="_blank">SSRforWindows</a>。SSR不需要安装就可以直接运行，但是会在当前目录生成许多运行时文件，所以建议拷贝ShadowsocksR-4.7.0-win文件夹到电脑里面，然后根据自己系统安装的.net情况运行ShadowsocksR-dotnet4.0.exe或者ShadowsocksR-dotnet2.0.exe。为了方便自己建立一个快捷方式到桌面或者设置开机自启即可。运行SSR之后可以在托盘区看到一个小飞机。</p>
 <p>　　复制服务器链接到剪贴板，然后右键小飞机剪贴板批量导入ssr://链接…，如图所示：</p>
 <p style="text-align:center"><img src="./自建梯子教程_files/637933-20171109002040278-1616074297.jpg" alt=""></p>
-<p>　　初始的时候软件里会有一台免费的服务器，由于SSR作者被请喝茶，已经没有维护了，是不能用的，需要将其删除掉，然后确定。如图所示：</p>
+<p>　　初始的时候软件里会有一台免费的服务器，由于SSR作者已经没有维护了，是不能用的，需要将其删除掉，然后确定。如图所示：</p>
 <p style="text-align:center"><img src="./自建梯子教程_files/637933-20171109002227106-340495847.jpg" alt="" width="800"></p>
 <p>　　此时已经可以访问google啦！由于服务器是美国的服务器，访问google的时候请使用google.com。其它后缀会慢很多。但是不要急着去玩，后面两步更加重要！！！</p>
 <h2>4.2&nbsp;&nbsp;安装SwitchyOmega_Chromium插件</h2>
