@@ -125,7 +125,7 @@
 <li>　　输入密码：强度越大越好，反正不需要记忆；</li>
 <li>　　输入15：使用chacha20加密方式；</li>
 <li>　　输入2：使用authsha1_v4协议插件，输入2并确认后会提示是否兼容原版，原版指的是Shadowsocks，没有必要选择兼容，填n后回车即可。</li>
-<li>　　输入2：使用http_simple混淆，延时小，可靠性高，同样也不需要兼容原版；（小概率导致<a href="https://github.com/siaimes/BTGFW/issues/3" target="_blank">windows客户端无法连接</a>）</li>
+<li>　　输入2：使用http_simple混淆，延时小，可靠性高，同样也不需要兼容原版；（小概率导致windows客户端无法连接，可尝试切换其它协议。）</li>
 <li>　　然后就是一些限制，一般默认几次回车就好了。&nbsp;</li>
 </ol>
 <p>　　上面的步骤无误之后一键管理脚本就开始安装SSR了，过一会儿会提示下载文件，输入y后回车即可，然后继续等待。</p>
